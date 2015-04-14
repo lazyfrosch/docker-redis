@@ -1,5 +1,5 @@
-FROM sameersbn/ubuntu:14.04.20150323
-MAINTAINER sameer@damagehead.com
+FROM lazyfrosch/ubuntu:trusty
+MAINTAINER Markus Frosch <markus@lazyfrosch.de>
 
 RUN apt-get update \
  && apt-get install -y redis-server \
